@@ -1,5 +1,5 @@
 var recipes = {}
 
-function udpateObjectWithKeyAndValue(obj, key, value) {
-  return Object.assign(obj, {[key]: value})
+function udpateObjectWithKeyAndValue(object, key, value) {
+  return Object.assign({}, object, {[key]: value})
 }
